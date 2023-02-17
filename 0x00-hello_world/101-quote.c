@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unixed.h>
+#include <unistd.h>
 /**
  * main - A C program that print a line to the standard erro
  * Return: (1) (success)
