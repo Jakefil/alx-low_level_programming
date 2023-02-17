@@ -11,10 +11,10 @@ long int c;
 long long int d;
 float e;
 
-printf("Size of a char: %zu byte(s)\n", (unsigned)sizeof(a));
-printf("Size of a int: %zu byte(s)\n", (unsigned long)sizeof(b));
+printf("Size of a char: %zu byte(s)\n", (unsigned char)sizeof(a));
+printf("Size of a int: %zu byte(s)\n", (unsigned int)sizeof(b));
 printf("Size of a long int: %zu byte(s)\n", (unsigned long)sizeof(c));
-printf("Size of a long long int: %zu byte(s)\n", (unsigned long)sizeof(d));
-printf("Size of a float: %zu byte(s)\n", (unsigned long)sizeof(e));
+printf("Size of a long long int: %zu byte(s)\n", (unsigned long int)sizeof(d));
+printf("Size of a float: %zu byte(s)\n", (unsigned int)sizeof(e));
 return (0);
 }
