@@ -7,12 +7,9 @@
  */
 int main(void)
 {
-int x = 97, y = 122;
-while (x <= y)
-putchar{
+int x;
+for (x = 'a'; x <= 'Z'; x++)
 	putchar(x);
-	x++;
-}
 putchar("\n");
 return (0);
 }
